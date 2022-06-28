@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    
+    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+  
+    <form id="survey" action="#" method="post">
+        <div id="section1">
+      
+          <select id="food" onchange="selection(this);">
+            <option value="pizza">Pizza</option>
+            <option value="mex">Mexican</option>
+            <option value="thai">Thai</option>
+          </select>
+        </div>
+        <div id="section2" style="display:none;">
+          What is your favourite type of pizza?<br>
+          <label for="hawaiian">Hawaiian</label><input type="radio" id="hawaiian">
+          <label for="supreme">Supreme</label><input type="radio" id="supreme">
+          <label for="vegetarian">Vegetarian</label><input type="radio" id="vegetarian">
+        </div>
+        <div id="section3" style="display:none;">
+          
+          <h1>Mexican Options </h1>
+          loremmmmmmmmmmmmmmmmmmmmmmmmm
+        </div>
+        <div id="section4" style="display:none;">
+          Thai Options
+        </div>
+      </form>
+
+      
+
+      <button onclick="toggleLinks()">Toggle Links</button>
+
+<div class="box">
+  <a href="http://www.google.com">google</a>
+  <br>
+  <a href="http://www.yahoo.com" >yahoo</a>
+</div>
+<div class="box">
+  <a href="http://www.stackoverflow.com"> stackoverflow</a>
+  <br>
+  <a href="http://www.github.com" >github</a>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+</body>
+</html>
